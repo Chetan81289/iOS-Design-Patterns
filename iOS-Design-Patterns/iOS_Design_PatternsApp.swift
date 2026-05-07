@@ -11,7 +11,9 @@ import SwiftUI
 struct iOS_Design_PatternsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                PatternListView()
+            }
         }
     }
 }
